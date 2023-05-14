@@ -1,0 +1,32 @@
+body{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width:fit-content;
+    border-style:groove;
+    border-color: black;
+
+}
+
+img{
+    
+    width: 200px;
+    float: left;
+    border-style: dotted;
+}
+.intro {
+    float: left;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 22px;
+    color: darkgray;
+ 
+
+}
+
+.context {
+    margin-top: 300px;
+}
