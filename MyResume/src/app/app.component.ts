@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Vinoth K Ravichelvam';
+  linkedin(){
+    alert('profile shared');
+  }
 }

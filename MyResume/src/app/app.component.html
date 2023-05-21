@@ -1,9 +1,12 @@
-
+<header>
 <body>
   <img src="../assets/picture.jpg" alt="Profile image">
     <div class="intro">
     <h1>Vinoth K Ravichelvam</h1>
-    <h4>705-991-0534</h4><h4>vinothkannan2605@gmail.com</h4><h4><a href="https://linkedin.com/in/vinoth-kannan-1520829b/">LinkedIN Profile</a></h4></div>
+    <h4>705-991-0534</h4><h4>vinothkannan2605@gmail.com</h4><a routerLink="home" >LinkedIN Profile</a>
+    <button (click)="linkedin()">Share the profile</button></div>
+
+    <router-outlet></router-outlet>
 <div class="context">  
 <div class="career">
     <h3>Career Experience</h3>
@@ -43,7 +46,10 @@
         <li>Implementation of strict thresholds in project variances to make sure that project in delivered on agreed terms & conditions.</li>
     </ul>
 </div></div>
+</body></header>
 
-</body>
+
+
+
   
 
